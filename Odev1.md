@@ -1,5 +1,3 @@
-## ODEV-1
-
 
 **1. Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.**
 
