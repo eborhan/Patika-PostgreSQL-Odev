@@ -100,10 +100,10 @@ RETURNING *;
 
 ```sql
 DELETE FROM employee
-WHERE id=7;
+WHERE id = 7;
 
 DELETE FROM employee
-WHERE email='ersan@test.com'
+WHERE email = 'ersan@test.com'
 RETURNING *;
 
 DELETE FROM employee
@@ -111,7 +111,7 @@ WHERE name ILIKE 'a%'
 RETURNING *;
 
 DELETE FROM employee
-WHERE birthday='1930-11-28'
+WHERE birthday = '1930-11-28'
 RETURNING *;
 
 DELETE FROM employee
