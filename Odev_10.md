@@ -13,8 +13,7 @@ SELECT payment_id, first_name, last_name FROM customer
 RIGHT JOIN payment ON payment.customer_id = customer.customer_id;
 ```
 
-**3. customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz FULL JOIN sorgusunu yazınız.
-**
+**3. customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz FULL JOIN sorgusunu yazınız.**
 
 ```sql
 SELECT rental_id, first_name, last_name FROM customer
